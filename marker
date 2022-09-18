@@ -1,0 +1,165 @@
+
+
+
+	
+
+	Project name:
+                                Online market
+	Submitted To:
+                                Mam Sania Aftar
+	Submitted By:
+                                 Tayiaba Mumtaz
+
+  
+
+
+
+
+Project Name: Online market
+	Create database:
+	Create table:
+•	Table1:Branch 
+          Create Table branch (
+            branch_id varchar (255), b_location
+        );
+              Result:
+             
+•	Table 2: Employee
+                        Create Table employee (
+                                     e_id varchar(255), e_ salary int, b_id
+                                  );
+                      Result:
+                                   
+•	Table 3: costumer
+      Create Table costumer (
+              c_id, varchar(255), p_id varchar (255), branch_id varchar(255),       city  varchar(255)
+        );
+Result:
+          	
+
+•	Table 4: Product 
+            Create Table product (
+              p_id, varchar(255), p_name, varchar (255), quantity varchar(255), price int
+                );
+Result:
+            
+Table 5: Management:
+                    Create Table management (
+           p_id, varchar(255), profit  varchar (255), lose  int );
+ Result:                 
+   
+	ALTER TABLE Statement:
+	ADD Column to Existing Table:
+          
+	ADD MULTIPLE Column to Existing table:            
+   
+Result:
+            
+	DROP Column To Existing Table:
+ 
+Result:
+            
+	Modify Column:
+ALTER TABLE management Modify Column lose int;
+	To Rename A column:
+ALTER TABLE product RENAME city to location;
+	ADD FOREIGN KEY on ALTER TABLE: 
+ALTER TABLE employee 
+ADD FOREIGN KEY (branch_id) REFRENCES branch (branch_id)
+	DROP a FOREIGN KEY:
+ALTER TABLE employee 
+Drop Foreign key branch_id branch;
+	SQL Check in ALTER TABLE:
+ALTER TABLE employee 
+ADD CHECK (salary>=10000);
+	COMMANDS:
+1: INSERT COMMAND:
+INSERT INTO table name
+VALUES (value1,value 2, value3….);
+2: SELECT COMMAND:
+EXAMPLE 1: select * from employee              
+EXAMPLE 2:
+           
+
+
+
+
+EXAMPLE 3:
+           
+3: UPDATE COMMAND:
+EXAMPLE:
+           
+RESULT:
+           
+	BUILT IN FUNCTION:
+1: COUNT():
+EXAMPLE 1:  count all
+Result:
+       
+EXAMPLE 2: count e_salary
+Result:
+        
+2: AVG():
+EXAMPLE:
+         
+3: SUM():
+EXAMPLE:
+             
+4: MAX():
+EXAMPLE:
+             
+5: MIN():
+EXAMPLE:
+             
+
+	SPECIAL CLAUSES:
+1: IN Operator:
+EXAMPLE 1:
+            
+EXAMPLE 2:
+            
+2: NOT IN Operator:
+EXAMPLE 1:
+             
+EXAMPLE 2:
+             
+3: BETWEEN Operator:
+EXAMPLE 1:
+             
+EXAMPLE 2:
+             
+NOT Between: EXAMPLE:
+             
+4: LIKE Operator:
+EXAMPLE1:
+          
+EXAMPLE 2:
+          
+5: UNION Operator:
+EXAMPLE1:           
+EXAMPLE 2:
+   
+6: Union All Operator: 
+         EXAMPLE 1:
+        
+7: Order Operator:
+                                          
+
+
+
+
+
+	JOINS
+1: NATURAL Join:
+EXAMPLE:
+        
+2: INNER Join:
+EXAMPLE:
+ 
+3:LEFT OUTER Join:
+EXAMPLE:             
+4: RIGHT OUTER Join:
+EXAMPLE:     
+5: SELF Join:
+EXAMPLE:  
+       
